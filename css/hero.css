@@ -1,0 +1,124 @@
+.hero__wrapper {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    text-align: center;
+    padding: 15rem 0;
+}
+.hero .title {
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.hero .text {
+    margin: 0 auto 4rem;
+    max-width: 30rem;
+}
+.hero__btn-box {
+    display: flex;
+    justify-content: center;
+}
+.hero__btn-box .btn {
+    margin: 0;
+}
+.hero__btn-box .btn-transparent {
+    margin-right: 1.5rem;
+}
+
+
+
+
+
+.contacts {
+    padding: 15rem 0;
+    text-align: center;
+}
+.contacts .sub-title {
+    margin-bottom: 2rem;
+}
+.contacts__item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+.contacts__block {
+    margin-bottom: 8rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.policy__wrapper {
+    background-color: var(--third-brand-color);
+}
+.policy {
+    padding: 10rem 0;
+    text-align: center;
+}
+.policy .sub-title {
+    margin-bottom: 10rem;
+}
+.policy__title {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.policy__block {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+.policy__block--top {
+    margin-bottom: 5rem;
+}
+.policy .text {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+@media screen and (min-width: 1440px)  {
+    .hero {
+        padding: 0;
+    }
+    .hero__block {
+        background-color: var(--sub-text-color);
+        width: fit-content;
+        margin: 0 auto;
+        -webkit-box-shadow:  0rem 0rem 3rem 0rem rgba(0,0,0,0.3);
+        -moz-box-shadow:  0rem 0rem 3rem 0rem rgba(0,0,0,0.3);
+        box-shadow:  0rem 0rem 3rem 0rem rgba(0,0,0,0.3);
+        padding: 25rem 5rem;
+    }
+
+
+    .contacts__wrapper {
+        background-image: url('../img/bg2.jpeg');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+    }
+    .contacts {
+        padding: 20rem;
+        text-align: left;
+    }
+    .contacts__block {
+        margin-left: 0;
+    }
+
+
+
+    .policy__box {
+        display: flex;
+        justify-content: center;
+    }
+    .policy__block--top {
+        margin-bottom: 0;
+        margin-right: 15rem;
+    }
+}
+
