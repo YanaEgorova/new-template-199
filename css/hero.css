@@ -97,17 +97,7 @@
 
 
     .contacts__wrapper {
-        background-image: url('../img/bg2.jpeg');
-        background-repeat: no-repeat;
-        background-position: center right;
-        background-size: cover;
-    }
-    .contacts {
-        padding: 20rem;
-        text-align: left;
-    }
-    .contacts__block {
-        margin-left: 0;
+        background-color: var(--first-brand-color);
     }
 
 
