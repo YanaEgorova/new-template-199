@@ -99,7 +99,9 @@
     .contacts__wrapper {
         background-color: var(--first-brand-color);
     }
-
+    .hero .title {
+        max-width: 60rem;
+    }
 
 
     .policy__box {
