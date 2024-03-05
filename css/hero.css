@@ -86,7 +86,7 @@
         padding: 0;
     }
     .hero__block {
-        background-color: var(--sub-text-color);
+        background-color: rgba(255, 255, 255, .7);
         width: fit-content;
         margin: 0 auto;
         -webkit-box-shadow:  0rem 0rem 3rem 0rem rgba(0,0,0,0.3);
